@@ -27,8 +27,8 @@ class Config:
     batch_size = 10
 
     # LLM API 参数
-    llm_api_key = os.getenv("LLM_API_KEY", api_key)
-    llm_base_url = os.getenv("BASE_URL", base_url)
+    llm_api_key = os.getenv("LLM_API_KEY", "sk-xx")
+    llm_base_url = os.getenv("BASE_URL", "https://dashscope.aliyuncs.com/compatible-mode/v1")
     llm_model = "qwen-plus"
 
     # 知识库配置
